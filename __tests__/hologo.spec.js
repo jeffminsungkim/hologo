@@ -9,6 +9,18 @@ describe("Test Date: 04/18/2018 12:00 PM", () => {
     expect(res).toBe("0 seconds");
   });
 
+  it("should return 45 seconds", () => {
+    const datestamp = "April 18, 2018 11:59:15";
+    const res = m.hologo(datestamp, testDate);
+    expect(res).toBe("45 seconds");
+  });
+
+  it("should return 1 minute", () => {
+    const datestamp = "April 18, 2018 11:59:00";
+    const res = m.hologo(datestamp, testDate);
+    expect(res).toBe("1 minute");
+  });
+
   it("should return 15 minutes", () => {
     const datestamp = "April 18, 2018 11:45:00";
     const res = m.hologo(datestamp, testDate);
