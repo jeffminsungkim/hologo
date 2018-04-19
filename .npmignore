@@ -1,0 +1,7 @@
+lib
+__tests__
+webpack.config.js
+tsconfig.json
+*.log
+*.tgz
+.git
