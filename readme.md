@@ -7,6 +7,7 @@
   <a href="https://www.npmjs.com/package/hologo">
   <a href="https://codeclimate.com/github/jeffminsungkim/hologo/maintainability">
   <img src="https://api.codeclimate.com/v1/badges/8844236c4180124c0a9c/maintainability" alt="Code Climate"/></a>
+  <a href="https://www.npmjs.com/package/hologo">
   <img src="https://img.shields.io/node/v/hologo.svg?label=works%20on%20node" alt="Node Version"></a>
   <a href="https://github.com/facebook/jest">
   <img src="https://img.shields.io/badge/tested_with-jest-99424f.svg" alt="Jest"></a>
