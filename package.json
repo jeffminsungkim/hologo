@@ -1,0 +1,68 @@
+{
+  "name": "hologo",
+  "version": "1.0.1",
+  "description": "A lightweight library that is used to find out humanly readable time differences between now and past date",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffminsungkim/hologo.git"
+  },
+  "author": {
+    "name": "JeffMinsungKim",
+    "email": "jeffminsungkim@gmail.com",
+    "url": "https://jeffminsungkim.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/jeffminsungkim/hologo#readme",
+  "bugs": {
+    "url": "https://github.com/jeffminsungkim/hologo/issues"
+  },
+  "main": "dist/hologo.js",
+  "types": "dist/hologo.d.ts",
+  "scripts": {
+    "build": "tsc && webpack --config webpack.config.js",
+    "test": "jest",
+    "prepublish": "npm run build && npm run test"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "files": [
+    "dist"
+  ],
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  },
+  "keywords": [
+    "hologo",
+    "how long ago",
+    "lightweight",
+    "precise",
+    "datetime",
+    "date",
+    "time",
+    "time between",
+    "time since",
+    "time differences",
+    "time-between",
+    "time-since",
+    "time-difference",
+    "relative"
+  ],
+  "devDependencies": {
+    "@types/jest": "^22.2.3",
+    "jest": "^22.4.3",
+    "ts-jest": "^22.4.4",
+    "typescript": "^2.8.1",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.14"
+  }
+}
