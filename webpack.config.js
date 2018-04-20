@@ -10,7 +10,8 @@ module.exports = {
   plugins: [
     new UglifyJSPlugin({
       uglifyOptions: {
-        warnings: false
+        compress: { warnings: false },
+        output: { comments: false }
       }
     })
   ]
