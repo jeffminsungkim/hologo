@@ -13,6 +13,8 @@
   <img src="https://img.shields.io/badge/tested_with-jest-99424f.svg" alt="Jest"></a>
   <a href="https://github.com/prettier/prettier">
   <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg" alt="Prettier"></a>
+  <a href="https://www.npmjs.com/package/hologo">
+  <img src="https://img.shields.io/npm/dt/hologo.svg" alt="Downloads"></a>
   <a href="https://github.com/jeffminsungkim/hologo/blob/master/license">
   <img src="https://img.shields.io/github/license/jeffminsungkim/hologo.svg" alt="License"></a>
 </p>
