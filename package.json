@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/jeffminsungkim/hologo/issues"
   },
-  "main": "dist/hologo.js",
+  "main": "dist/hologo.min.js",
   "types": "dist/hologo.d.ts",
   "scripts": {
     "build": "tsc && webpack --config webpack.config.js",
