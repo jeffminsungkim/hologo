@@ -4,7 +4,6 @@
 <p align="center">
   <a href="https://travis-ci.org/jeffminsungkim/hologo">
   <img src="https://travis-ci.org/jeffminsungkim/hologo.svg?branch=master" alt="Build Status"></a>
-  <a href="https://www.npmjs.com/package/hologo">
   <a href="https://codeclimate.com/github/jeffminsungkim/hologo/maintainability">
   <img src="https://api.codeclimate.com/v1/badges/8844236c4180124c0a9c/maintainability" alt="Code Climate"/></a>
   <a href="https://www.npmjs.com/package/hologo">
