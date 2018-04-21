@@ -19,7 +19,7 @@
   <img src="https://img.shields.io/github/license/jeffminsungkim/hologo.svg" alt="License"></a>
 </p>
 
-> A lightweight (⬇ 1 KB) library that is used to find out humanly readable time differences between now and past date
+> A lightweight (1 KB) library that is used to find out humanly readable time differences between now and past date
 
 ## Install
 
