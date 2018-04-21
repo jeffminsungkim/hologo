@@ -1,18 +1,12 @@
-const webpack = require('webpack');
-const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
+const path = require("path");
 
 module.exports = {
   mode: 'production',
   entry: './dist/hologo.js',
   output: {
-    filename: 'hologo.min.js'
-  },
-  plugins: [
-    new UglifyJSPlugin({
-      uglifyOptions: {
-        compress: { warnings: false },
-        output: { comments: false }
-      }
-    })
-  ]
+    filename: 'hologo.min.js',
+    path: path.resolve(__dirname, "dist"),
+    library: 'hologo',
+    libraryTarget: 'umd'
+  }
 };
