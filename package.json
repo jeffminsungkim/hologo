@@ -30,6 +30,7 @@
     "dist"
   ],
   "jest": {
+    "testEnvironment": "node",
     "transform": {
       "^.+\\.tsx?$": "ts-jest"
     },
@@ -62,8 +63,10 @@
     "ts-jest": "^22.4.4",
     "ts-loader": "^4.2.0",
     "typescript": "^2.8.1",
-    "uglifyjs-webpack-plugin": "^1.2.5",
-    "webpack": "^4.6.0",
-    "webpack-cli": "^2.0.14"
+    "uglifyjs-webpack-plugin": "^1.2.5"
+  },
+  "dependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
   }
 }
