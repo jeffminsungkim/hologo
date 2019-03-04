@@ -1,6 +1,6 @@
 {
   "name": "hologo",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A lightweight library that is used to find out humanly readable time differences between now and past date",
   "repository": {
     "type": "git",
